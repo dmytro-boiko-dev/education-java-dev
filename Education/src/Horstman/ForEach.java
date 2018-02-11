@@ -16,6 +16,7 @@ public class ForEach {
 		}
 		
 		// another type of array displaying
+		System.out.println("another type of array displaying");
 		System.out.println(Arrays.toString(a));
 		
 		
