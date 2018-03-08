@@ -1,10 +1,12 @@
 package com.dao;
 
 import com.models.User;
+import org.springframework.stereotype.Repository;
 
 import java.util.Arrays;
 import java.util.List;
 
+@Repository("userDAO")
 public class UserDAO {
 
     private List users = Arrays.asList(

@@ -1,6 +1,12 @@
+// this class is model (bean); no logic inside
+
 package com.models;
 
+import com.annotation_test.NickNameAnnotation;
+
 public class User {
+
+    @NickNameAnnotation(value = "userName")
     private String name;
     private String surname;
     private int age;
@@ -13,9 +19,9 @@ public class User {
         this.age = age;
     }
 
-    public static void main(String[] args) {
-
-    }
+//    public static void main(String[] args) {
+//
+//    }
 
     public String getName() {
         return name;
