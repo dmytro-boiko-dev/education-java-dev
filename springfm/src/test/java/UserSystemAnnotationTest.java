@@ -1,5 +1,4 @@
 import com.dao.UserDAO;
-import com.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
